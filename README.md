@@ -4,6 +4,11 @@
 - Quản trị: adminsmith@gmail.com, Useradmin1 .
 - Link cho API real-time firebase: "https://de3ddfootball-default-rtdb.firebaseio.com/" 😭😭🤡 .
 
+# Project owner: haocgph46686
+- Vui lòng sử dụng với mục đích học hỏi.
+- Không sao chép để đi trục lợi.
+
+
 # Project Name
 - Đặt sân đá bóng ĐỐNG ĐẾ - ĐỐNG ĐA
 ## Requirements
