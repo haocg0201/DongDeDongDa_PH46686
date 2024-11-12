@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    tools:context=".staff.stafffragments.ViewStadiumFragment">
+
+    <androidx.appcompat.widget.SearchView
+        android:padding="5dp"
+        android:id="@+id/search_view_staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="true"
+        app:queryHint="Tìm kiếm ..."
+        app:theme="@style/CustomSearchViewStyle"
+        android:layout_gravity="end"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:id="@+id/staffStadiumRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        tools:listitem="@layout/stadium_item"/>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/nav_main_staff"
+        android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/nav_section_title"-->
+<!--            android:title="Các tác vụ"-->
+<!--            android:enabled="false"-->
+<!--            android:visible="true" />-->
+        <item
+            android:id="@+id/nav_check_in"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Check in" />
+        <item
+            android:id="@+id/nav_add_service"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Thêm dịch vụ" />
+        <item
+            android:id="@+id/nav_old_check_in_booking"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Check-in hết hạn" />
+        <item
+            android:id="@+id/nav_invoice"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Xem hóa đơn" />
+
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Đặt lịch cho khách" />
+
+        <item
+            android:id="@+id/nav_shift"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Giao ca" />
+    </group>
+
+    <group
+        android:id="@+id/nav_main_admin"
+        android:checkableBehavior="single">
+        <!--        <item-->
+        <!--            android:id="@+id/nav_section_title"-->
+        <!--            android:title="Các tác vụ"-->
+        <!--            android:enabled="false"-->
+        <!--            android:visible="true" />-->
+        <item
+            android:id="@+id/nav_m_account"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Quản lý tài khoản" />
+        <item
+            android:id="@+id/nav_m_service"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Quản lý dịch vụ" />
+        <item
+            android:id="@+id/nav_m_stadium"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Quản lý sân bóng" />
+        <item
+            android:id="@+id/nav_m_sts"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Quản lý thanh trạng" />
+
+        <item
+            android:id="@+id/nav_as_total"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Thống kê doanh thu" />
+
+        <item
+            android:id="@+id/nav_as_guest"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Thống kê nhân số" />
+
+        <item
+            android:id="@+id/nav_as_shift"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Nhân viên giao ca" />
+        <item
+            android:id="@+id/nav_invoice_admin"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Hóa đơn" />
+    </group>
+
+</menu>

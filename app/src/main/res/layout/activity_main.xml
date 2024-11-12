@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_guest"
+    android:orientation="vertical"
+    tools:context=".guest.MainActivity"
+    android:background="@mipmap/cus_bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/guestToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:subtitleTextColor="@color/black"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cảm ơn đã sử dụng dịch vụ"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Trạng thái sẽ được hiển thị cho quý khách khi hoàn thành các bước đề bạt."
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Một số tính năng yêu cầu quý khác cần giữ tay vào ô mục đã chọn giây lát."
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Nếu có lỗi xảy ra vui lòng quý khách hàng gặp trực sân để khắc phục."
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hoặc liên hệ với chúng tôi theo số hotline '19008198' để được hỗ trợ."
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sự hài lòng của khách hàng là liều thuốc tinh thần dành cho chúng tôi."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="150dp"
+    tools:context=".staff.stafffragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:text="Cảm ơn đã sử dụng dịch vụ"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="90dp"
+        android:text="Vui lòng kéo từ trái sang phải để sử dụng hết các tính năng"
+        android:textAlignment="inherit"
+        android:textSize="18sp" />
+
+</FrameLayout>

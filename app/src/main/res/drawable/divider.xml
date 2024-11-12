@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Màu nền của item -->
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" />
+        </shape>
+    </item>
+    <item
+        android:bottom="1dp">
+        <!-- Đường kẻ dưới cùng -->
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Màu của đường gạch ngang -->
+            <size android:height="1dp" /> <!-- Độ dày của đường gạch ngang -->
+        </shape>
+    </item>
+</layer-list>

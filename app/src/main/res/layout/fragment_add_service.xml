@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingBottom="35dp"
+    tools:context=".staff.stafffragments.AddServiceFragment">
+
+    <TextView
+        android:id="@+id/txtTitleAddService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm dịch vụ"
+        android:textSize="30sp"
+        android:paddingBottom="5dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:id="@+id/recyclerViewAddService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabButtonInvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="25dp"
+        android:text="Thanh toán" />
+</FrameLayout>

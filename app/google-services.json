@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "475115557078",
+    "firebase_url": "https://de3ddfootball-default-rtdb.firebaseio.com",
+    "project_id": "de3ddfootball",
+    "storage_bucket": "de3ddfootball.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475115557078:android:2acc63c6fab8e89f10b977",
+        "android_client_info": {
+          "package_name": "com.haocg.myfootballapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU95Ml2SGNysh0Ww14_w-yRduW0NpXGms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

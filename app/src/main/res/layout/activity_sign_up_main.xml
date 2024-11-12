@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpMainActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/signUpToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/signupTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng Ký Tài Khoản"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingBottom="24dp"
+                android:gravity="center" />
+
+            <!-- Full Name Input -->
+            <EditText
+                android:id="@+id/edtFullNameSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Họ và Tên"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPersonName" />
+
+            <!-- Email Input -->
+            <EditText
+                android:id="@+id/edtEmailSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_marginBottom="16dp"
+                android:inputType="textEmailAddress" />
+
+            <!-- Phone Number Input -->
+            <EditText
+                android:id="@+id/edtPhoneSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Số điện thoại"
+                android:layout_marginBottom="16dp"
+                android:inputType="phone" />
+
+            <!-- Password Input -->
+            <EditText
+                android:id="@+id/edtPasswordSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPassword"
+                android:drawableEnd="@drawable/ic_visibility_off" />
+
+            <!-- Confirm Password Input -->
+            <EditText
+                android:id="@+id/edtConfirmPasswordSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Xác nhận mật khẩu"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPassword"
+                android:drawableEnd="@drawable/ic_visibility_off" />
+
+            <!-- Sign Up Button -->
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng Ký"
+                android:backgroundTint="@color/black"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Already Have Account -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đã có tài khoản? " />
+
+                <TextView
+                    android:id="@+id/loginRedirect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đăng nhập"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

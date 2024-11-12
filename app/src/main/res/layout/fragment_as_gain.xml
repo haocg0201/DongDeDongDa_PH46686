@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.frg.AsGainFragment"
+    android:orientation="vertical"
+    android:paddingTop="150dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê doanh thu"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="50dp"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outline_button"
+            android:layout_margin="1dp"
+            android:textColor="@color/black"
+            android:text="Ngày"/>
+
+        <Button
+            android:id="@+id/btnWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outline_button"
+            android:layout_margin="1dp"
+            android:textColor="@color/black"
+            android:text="Tuần"/>
+
+        <Button
+            android:id="@+id/btnMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outline_button"
+            android:layout_margin="1dp"
+            android:textColor="@color/black"
+            android:text="Tháng"/>
+
+    </LinearLayout>
+
+</LinearLayout>

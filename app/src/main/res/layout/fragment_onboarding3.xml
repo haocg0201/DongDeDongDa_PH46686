@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding.OnboardingFragment3"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:scaleType="centerCrop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textSize="26sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:text="Football"
+            tools:ignore="HardcodedText"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:text="Hãy chuẩn bị sẵn sàng cho mọi khoảnh khắc thăng hoa trên sân cỏ! Mỗi trận đấu là một câu chuyện mới, và bạn là người viết nên."
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGetStart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34FFFFFF"
+        android:paddingLeft="35dp"
+        android:paddingTop="10dp"
+        android:paddingRight="35dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/outline_button"
+        android:text="Bắt đầu"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

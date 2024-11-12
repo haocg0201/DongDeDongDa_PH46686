@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBSM"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".guest.stadiumutil.CalenderMainActivity"
+    android:background="@mipmap/bg_booking">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/booking_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="MissingConstraints">
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtStadiumName"
+        android:text="stadium name"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMonthInfo"
+        android:text="Month"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rcvMonthBookingStadium"
+        android:padding="5dp"
+        tools:listitem="@layout/item_day"/>
+
+</LinearLayout>

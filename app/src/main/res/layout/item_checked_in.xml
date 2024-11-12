@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/divider">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textSoSanAddService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewDateAddService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTimeAddService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewGuestNameAddService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewGuestPNumberAddService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textAddServiceForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Thêm dịch vụ"
+            android:background="@drawable/bg_border_item_stadium"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textAllServiceAddService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6AB9F2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textStatusAddService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6AB9F2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/btnTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#348328"
+        android:textStyle="bold"
+        android:background="@drawable/bg_border_item_stadium"
+        android:text="Thanh toán"
+        android:gravity="center"
+        android:padding="7dp"
+        android:textSize="20sp" />
+</LinearLayout>

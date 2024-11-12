@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Icon đặt sân-->
+    <item
+        android:id="@+id/action_stadium"
+        android:icon="@drawable/ic_stadium_soccer"
+        android:title="Đặt sân"
+        app:showAsAction="always"/>
+
+    <!-- Icon hình tròn đại diện cho tài khoản -->
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/ic_account_circle"
+        android:title="Tài khoản"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_tab_payment"
+        android:icon="@drawable/ic_tab"
+        android:title="Tài khoản"
+        app:showAsAction="always"/>
+
+</menu>

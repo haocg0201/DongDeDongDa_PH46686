@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.frg.MAccountFragment"
+    android:paddingTop="50dp"
+    android:paddingBottom="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchViewMA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Tìm kiếm theo tên, email, sdt, vai trò" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewMA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+</LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabButtonMaCreateAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:text="Thêm nhân viên" />
+</FrameLayout>

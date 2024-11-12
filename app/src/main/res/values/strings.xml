@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DDFootball</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fab_description">Đặt sân</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="@drawable/divider">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Số điện thoại" />
+
+        <TextView
+            android:id="@+id/tvRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vai tro" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageButton
+            android:id="@+id/btnInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_visibility_off" />
+
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switchActive"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+</LinearLayout>
