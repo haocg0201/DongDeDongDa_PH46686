@@ -18,7 +18,7 @@
 4. Build the app by selecting 'Build > Build APK'.
 5. Run the app on your emulator or physical device.
 
-# dữ liệu lưu trên real-time firebase mẫu
+# Dữ liệu lưu trên real-time firebase mẫu
 {
   "users": {
     "userId_1": {
