@@ -1,11 +1,11 @@
 # Tài khoản trải nghiệm:
-Khách: johndoe@gmail.com, Johnuser1
-Nhân viên: janesmith@gmail.com, Userstaff1
-Quản trị: adminsmith@gmail.com, Useradmin1
-Link cho API real-time firebase: "https://de3ddfootball-default-rtdb.firebaseio.com/" 😭😭🤡
+- Khách: johndoe@gmail.com, Johnuser1 .
+- Nhân viên: janesmith@gmail.com, Userstaff1 .
+- Quản trị: adminsmith@gmail.com, Useradmin1 .
+- Link cho API real-time firebase: "https://de3ddfootball-default-rtdb.firebaseio.com/" 😭😭🤡 .
 
 # Project Name
-
+- Đặt sân đá bóng ĐỐNG ĐẾ - ĐỐNG ĐA
 ## Requirements
 - Android Studio 2024.x
 - SDK Version 29 or higher
