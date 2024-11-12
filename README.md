@@ -4,6 +4,19 @@ Nhân viên: janesmith@gmail.com, Userstaff1
 Quản trị: adminsmith@gmail.com, Useradmin1
 Link cho API real-time firebase: "https://de3ddfootball-default-rtdb.firebaseio.com/" 😭😭🤡
 
+# Project Name
+
+## Requirements
+- Android Studio 2024.x
+- SDK Version 29 or higher
+- Firebase account and google-services.json (contact project owner (in project)) 
+
+## Build Instructions
+1. Clone the repository.
+2. Open the project in Android Studio.
+3. Make sure you have the required dependencies installed.
+4. Build the app by selecting 'Build > Build APK'.
+5. Run the app on your emulator or physical device.
 
 // dữ liệu lưu trên real-time firebase mẫu
 {
