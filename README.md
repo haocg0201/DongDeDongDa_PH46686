@@ -1,4 +1,4 @@
-Tài khoản trải nghiệm:
+# Tài khoản trải nghiệm:
 Khách: johndoe@gmail.com, Johnuser1
 Nhân viên: janesmith@gmail.com, Userstaff1
 Quản trị: adminsmith@gmail.com, Useradmin1
@@ -18,7 +18,7 @@ Link cho API real-time firebase: "https://de3ddfootball-default-rtdb.firebaseio.
 4. Build the app by selecting 'Build > Build APK'.
 5. Run the app on your emulator or physical device.
 
-// dữ liệu lưu trên real-time firebase mẫu
+# dữ liệu lưu trên real-time firebase mẫu
 {
   "users": {
     "userId_1": {
