@@ -280,3 +280,8 @@
    },
  }
 }
+# Contributions
+- Feel free to submit issues and enhancement requests. Pull requests are welcome.
+
+# License
+- This project is intended for educational and reference purposes only. Any copying or use of this project for unethical or regressive purposes is strictly prohibited.
